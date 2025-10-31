@@ -41,7 +41,7 @@ old_books = pl.read_parquet('data/fable.parquet')
 
 concat = pl.concat([clean, old_books]).unique()
 
-concat.write_parquet('data/fabley.parquet')
+concat.write_parquet('data/fable.parquet')
 
 # OH NO NOT AS MANY AS IVE READ
 # group by month

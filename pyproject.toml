@@ -1,0 +1,14 @@
+[project]
+name = "iz-reading"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pandas>=2.3.3",
+    "pins>=0.9.1",
+    "plotnine>=0.15.1",
+    "polars>=1.35.1",
+    "pyarrow>=22.0.0",
+    "requests>=2.32.5",
+]
